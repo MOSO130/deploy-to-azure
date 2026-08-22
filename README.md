@@ -23,7 +23,7 @@ _Create two deployment workflows using GitHub Actions and Microsoft Azure._
 
 _Nicely done, you used a workflow to spin up your Azure environment :dancer:_
 
-Now that the proper configuration and workflow files are present, let's test our actions! In this step, there's a small change to the game. Once you add the appropriate label to your pull request, you should be able to see the deployment!
+Now that the proper configuration and workflow files are present, let's test our actions! In this step, there's a small change to the game. Once you add the appropriate label to your pull request, you should be able to see the deployment! Retry
 
 1. Create a new branch named `staging-test` from `main` using the same steps as you did for the previous `azure-configuration` branch.
 1. Edit the `.github/workflows/deploy-staging.yml` file, and replace every `<username>` with your GitHub username.
